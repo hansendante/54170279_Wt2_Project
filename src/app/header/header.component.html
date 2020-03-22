@@ -8,10 +8,14 @@
   <a class="nav-link" [routerLink]="['/about']"
    routerLinkActive="active"
     >About</a>
+    <a class="nav-link" [routerLink]="['/shop']"
+   routerLinkActive="active"
+    >Shop</a>
       </span>  
       <span>
         <mat-icon [matMenuTriggerFor]="menu" class="menu-icon">menu</mat-icon>
         <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="profile()">Profile</button>
           <button mat-menu-item (click)="logout()">Logout</button>
         </mat-menu>
 

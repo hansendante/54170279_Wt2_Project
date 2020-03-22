@@ -18,6 +18,8 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatExpansionModule } from "@angular/material/expansion";
 import { MatCardModule } from "@angular/material/card";
 import { PokemonDetailComponent } from "./pokemon-detail/pokemon-detail.component";
+import { ProfileComponent } from './profile/profile.component';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PokemonDetailComponent } from "./pokemon-detail/pokemon-detail.componen
     DashboardComponent,
     AboutComponent,
     Page404Component,
-    PokemonDetailComponent
+    PokemonDetailComponent,
+    ProfileComponent,
+    ShopComponent
   ],
   imports: [BrowserModule, MatToolbarModule , MatIconModule, MatMenuModule,
   AppRoutingModule, MatCardModule ,BrowserAnimationsModule, MatButtonModule, MatExpansionModule ],

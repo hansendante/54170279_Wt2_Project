@@ -21,4 +21,7 @@ export class UserService {
   logout(): void {
     this.isLoggedIn = false;
   }
+  profile(): void{
+    
+  }
 }

@@ -7,7 +7,8 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 import { PokemonDetailComponent } from "./pokemon-detail/pokemon-detail.component";
 import { LoginComponent } from "./login/login.component";
 import { LoginGuard } from "./login.guard";
-
+import { ProfileComponent } from "./profile/profile.component";
+import { ShopComponent } from "./shop/shop.component";
 const routes: Routes = [
   {
     path: "",
@@ -30,6 +31,14 @@ const routes: Routes = [
       {
         path: "about",
         component: AboutComponent
+      },
+      {
+        path: "profile",
+        component: ProfileComponent
+      },
+      {
+        path: "shop",
+        component: ShopComponent
       }
     ]
   },
